@@ -16,14 +16,15 @@
 
 Criação de VPN Site to site na AWS
 
-# Pré Requisitos
+# Pré Requisitos AWS
 
-VPC criada na AWS
-Criar tag Environment na vpc com valor desejado
-Adicione id da conta AWS no arquivo main.tf
+- VPC criada na AWS
+- Criar tag Environment na vpc com valor desejado
 
+# Ajustes terraform
 
-Altere os valores nas variaveis dentro do arquivo "variables.tf"
+- Adicione id da conta AWS no arquivo main.tf
+- Altere os valores nas variaveis dentro do arquivo "variables.tf"
 
 ip_gw_remote = ip de GW do equipamento remoto
 lan_remote = range de comunicação interna da rede remota 
